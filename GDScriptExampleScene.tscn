@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://arrays.gd" type="Script" id=1]
+[ext_resource path="res://gdscript_basics.gd" type="Script" id=2]
+[ext_resource path="res://dictionaries.gd" type="Script" id=3]
+[ext_resource path="res://enums.gd" type="Script" id=4]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="arrays" type="Node2D" parent="."]
+visible = false
+script = ExtResource( 1 )
+
+[node name="dictionaries" type="Node2D" parent="."]
+visible = false
+script = ExtResource( 3 )
+
+[node name="enums" type="Node2D" parent="."]
+script = ExtResource( 4 )
+
+[node name="gdscript_basics" type="Node2D" parent="."]
+visible = false
+script = ExtResource( 2 )
+exported_int = 8
